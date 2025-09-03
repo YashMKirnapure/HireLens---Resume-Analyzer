@@ -4,7 +4,7 @@ import ResumeCard from "~/components/ResumeCard";
 import { Link, useNavigate } from "react-router";
 import { usePuterStore } from "~/lib/puter";
 import { useEffect, useState } from "react";
-import resume from "~/lib/resume";
+import resume from "~/routes/resume";
 
 export function meta({}: Route.MetaArgs) {
   return [
